@@ -46,18 +46,11 @@ $ neofetch
 $ git log --oneline -1
 > 4277eaf pushing the limits
 
-$ cat ~/config
+$ cat ~/.config
 > editor: neovim
 > shell: zsh
-> wm: yabai
-> term: kitty
+> term: wezterm + zellij
 ```
-
-<div align="center">
-
-[![Visitor Count](https://profile-counter.glitch.me/suj1e/count.svg)](https://github.com/suj1e)
-
-</div>
 
 ---
 

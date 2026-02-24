@@ -46,7 +46,7 @@ $ git log --oneline -1
 $ cat ~/.config
 > editor: neovim
 > shell: zsh
-> term: wezterm + zellij
+> term: ghostty + zellij
 ```
 
 ---

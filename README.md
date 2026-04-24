@@ -44,7 +44,7 @@ $ git log --oneline -1
 > 4277eaf pushing the limits
 
 $ cat ~/.config
-> editor: neovim/lazyvim
+> editor: neovim/lazyvim、zed
 > shell: zsh
 > term: ghostty + zellij
 > agentic coding tool: claude code

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d17">
+  <meta name="description" content="suj1e 的一片星空。">
+  <title>suj1e</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <main>
+    <canvas id="starfield" tabindex="0" role="img" aria-label="交互星空。移动指针或触摸拖动可牵引星群与连线；单击、双击或长按可触发烟花，流星偶尔掠过。聚焦后按空格暂停或继续。" aria-keyshortcuts="Space"></canvas>
+    <header>
+      <a href="https://github.com/suj1e">GitHub</a>
+    </header>
+    <p id="motion-state" class="sr-only" role="status" aria-live="polite"></p>
+    <noscript><p class="notice">星空动效需要启用 JavaScript。你也可以通过右上角访问 GitHub。</p></noscript>
+  </main>
+  <script type="module" src="./site.js"></script>
+</body>
+</html>

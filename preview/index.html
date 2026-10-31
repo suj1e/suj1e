@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>suj1e — 动效试验</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead">
+      <a class="wordmark" href="https://github.com/suj1e" aria-label="suj1e 的 GitHub">suj1e<span class="wordmark-dot">.</span></a>
+      <span class="preview-note">动效试验</span>
+      <div class="tools">
+        <button id="pause" type="button" aria-pressed="false">暂停动效</button>
+        <button id="theme" type="button" aria-label="切换到深色">深色</button>
+      </div>
+    </header>
+    <main>
+      <div class="scene-heading">
+        <h1 id="scene-title">粒子地形</h1>
+        <p id="scene-description">像风经过沙丘，形状一直在缓慢变化。</p>
+      </div>
+      <div class="stage" id="stage">
+        <canvas id="scene" aria-label="粒子地形交互动画"></canvas>
+        <p id="error" role="alert" hidden></p>
+      </div>
+      <div class="stage-footer">
+        <p id="hint">移动指针，让地形轻轻隆起</p>
+        <span class="scene-count" aria-hidden="true"><span id="scene-number">01</span> / 03</span>
+      </div>
+      <nav class="scene-tabs" aria-label="选择动画效果">
+        <button class="scene-tab" data-scene="terrain" aria-current="true" type="button"><span class="tab-name">粒子地形</span><span class="tab-detail">缓慢起伏 · 局部扰动</span></button>
+        <button class="scene-tab" data-scene="gravity" type="button"><span class="tab-name">引力实验</span><span class="tab-detail">轨道流动 · 按住吸引</span></button>
+        <button class="scene-tab" data-scene="signature" type="button"><span class="tab-name">粒子签名</span><span class="tab-detail">保持轮廓 · 触碰散开</span></button>
+      </nav>
+    </main>
+    <footer class="page-footer"><span>三个方向，先看感觉。</span><span>无热力图，无统计卡片。</span></footer>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

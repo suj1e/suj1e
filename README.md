@@ -1,7 +1,12 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=500&color=00ff00&center=true&vCenter=true&width=600&height=60&lines=embodied.ai.init())](https://git.io/typing-svg)
+<a href="https://suj1e.github.io/suj1e/">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/starfield.png">
+  <img src="./assets/starfield.gif" alt="点击进入交互星空：星点漂移，光晕牵动连线，偶尔有流星和烟花。" width="900">
+</picture>
+</a>
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=suj1e&theme=tokyonight&hide_border=true" />
+<sub>Have a nice day!</sub>
 
 </div>
